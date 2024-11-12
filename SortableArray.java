@@ -1,14 +1,17 @@
-// File: SortableArray.java
 
-import java.util.Arrays;
+// File: src/SortableArray.java
 
 public class SortableArray {
-    public int[] sortIntegers(int[] array) {
-        if (array == null) {
-            throw new IllegalArgumentException("Input array cannot be null");
-        }
-        int[] sortedArray = Arrays.copyOf(array, array.length);
-        Arrays.sort(sortedArray);
+
+    /**
+     * Sorts an array of integers in ascending order.
+     * @param arr the array of integers to sort
+     * @return the sorted array
+     */
+    public int[] sortIntegers(int[] arr) {
+        if (arr == null) throw new IllegalArgumentException("Array cannot be null");
+        int[] sortedArray = arr.clone();
+        java.util.Arrays.sort(sortedArray);
         return sortedArray;
     }
 }
