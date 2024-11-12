@@ -1,1 +1,10 @@
-
+String[] stringArray = {"banana", "apple", "grape", "cherry", "date"};
+        System.out.println("\n\nOriginal String Array: ");
+        for (String word : stringArray) {
+            System.out.print(word + " ");
+        }
+        System.out.println("\nSorted String Array: ");
+        stringArray = sorter.bubbleSortStrings(stringArray);
+        for (String word : stringArray) {
+            System.out.print(word + " ");
+        }
