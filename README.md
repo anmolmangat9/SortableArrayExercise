@@ -17,7 +17,7 @@ This project demonstrates a simple Java program that sorts arrays. It includes t
   int[] sortedIntegers = sortableArray.sortIntegers(new int[]{3, 1, 2});
   // Output: [1, 2, 3]
 # Feature 2: Sort Strings
-## This feature sorts an array of strings in alphabetical order.
+This feature sorts an array of strings in alphabetical order.
 
 Usage: Use the sortStrings method in SortableArray.java.
 Example:
