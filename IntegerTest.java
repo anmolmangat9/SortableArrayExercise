@@ -1,14 +1,14 @@
-// File: test/SortableArrayTest.java
-
-import static org.junit.jupiter.api.Assertions.*;
+// src/SortableArrayTest.java
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SortableArrayTest {
 
     @Test
-    public static void main(String[] args) {
-        // Test Feature 1: Sort integers
-        int[] integers = {5, 3, 8, 9, 2};
-        System.out.println("Original Integers: " + Arrays.toString(integers));
-        int[] sortedIntegers = sortIntegers(integers);
-        System.out.println("Sorted Integers: " + Arrays.toString(sortedIntegers)}
+    public void testSortIntegers() {
+        SortableArray sorter = new SortableArray();
+        int[] numbers = {3, 1, 2};
+        int[] expected = {1, 2, 3};
+        assertArrayEquals(expected, sorter.sortIntegers(numbers));
+    }
+}
