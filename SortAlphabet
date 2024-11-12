@@ -16,7 +16,7 @@ public class StringSorter {
     }
 
     public static void main(String[] args) {
-        #String[] words = {"banana", "apple", "grape", "cherry", "date"};
+        String[] words = {"banana", "apple", "grape", "cherry", "date"};
         String[] sortedWords = sortStrings(words);
         for (String word : sortedWords) {
             System.out.print(word + " ");
