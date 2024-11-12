@@ -12,7 +12,7 @@ This project demonstrates a simple Java program that sorts arrays. It includes t
 - This feature sorts an array of integers in ascending order.
 - Usage: Use the `sortIntegers` method in `SortableArray.java`.
 - Example:
-  ```java
+  
   SortableArray sortableArray = new SortableArray();
   int[] sortedIntegers = sortableArray.sortIntegers(new int[]{3, 1, 2});
   // Output: [1, 2, 3]
@@ -21,6 +21,8 @@ This feature sorts an array of strings in alphabetical order.
 
 Usage: Use the sortStrings method in SortableArray.java.
 Example:
+
 SortableArray sortableArray = new SortableArray();
 String[] sortedStrings = sortableArray.sortStrings(new String[]{"banana", "apple", "cherry"});
 // Output: ["apple", "banana", "cherry"]
+
